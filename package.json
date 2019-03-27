@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AyupDigital/flex-grid.git"
+    "url": "git+https://github.com/AyupDigital/flexigrid.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/AyupDigital/flex-grid/issues"
+    "url": "https://github.com/AyupDigital/flexigrid/issues"
   },
-  "homepage": "https://github.com/AyupDigital/flex-grid#readme",
+  "homepage": "https://github.com/AyupDigital/flexigrid#readme",
   "dependencies": {
     "node-sass": "^4.11.0"
   }
