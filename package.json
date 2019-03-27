@@ -1,10 +1,11 @@
 {
-  "name": "flex-grid",
+  "name": "flexigrid",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "npm run sass",
+    "sass": "node-sass --output-style expanded -w flexigrid-classes.scss css/flexigrid.css | node-sass --output-style compressed -w flexigrid-classes.scss css/flexigrid.min.css"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/AyupDigital/flex-grid/issues"
   },
-  "homepage": "https://github.com/AyupDigital/flex-grid#readme"
+  "homepage": "https://github.com/AyupDigital/flex-grid#readme",
+  "dependencies": {
+    "node-sass": "^4.11.0"
+  }
 }
