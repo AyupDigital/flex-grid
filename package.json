@@ -1,7 +1,7 @@
 {
-  "name": "flexigrid",
+  "name": "@ayup-digital/flexigrid",
   "version": "1.0.0",
-  "description": "",
+  "description": "This project is a fully working flexbox grid system.",
   "main": "index.js",
   "scripts": {
     "build": "npm run sass",
