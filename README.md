@@ -1,7 +1,7 @@
 # FlexiGrid
 
 This project is a fully working flexbox grid system.
-You can find documention on how to use it [here!](#)
+You can find documentation on how to use it [here!](https://ayupdigital.github.io/flexigrid/#) this package currently uses [flexicution](http://keenanpayne.com/flexicution/) as a base.
 
 ## Getting Started
 

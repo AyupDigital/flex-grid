@@ -119,12 +119,9 @@
     <section class="instructions">
       <div class="container">
         <h2 class="instructions-header">Installation</h2>
-
         <p>
-          This is the preferred method to install flexigrid. Simply install
-          using NPM or Bower.
+          Install using NPM.
         </p>
-
         <figure class="highlight">
           <pre><code class="language-bash" data-lang="bash"><span class="c"># NPM</span>
           npm install flexigrid
@@ -136,8 +133,8 @@
 
         <p>
           You have two different options for using FlexiGrid. You may include
-          the framework and build your column classes yourself, or you can use
-          our pre-defined breakpoints and generated class names.
+          the framework alone and create your column classes yourself, or you can use
+          the pre-defined breakpoints and generated class names.
         </p>
 
         <div class="demo">
@@ -185,31 +182,31 @@
           <div class="row">
             <div class="col-small-6">
               <h4>Semantic Grid Mixin</h4>
-
               <figure class="highlight">
-                <pre><code class="language-scss" data-lang="scss"><span class="c1">//
-  // Generate Semantic Rows
-  // ----------------------
-  // @param $gutter - Gutter between columns. Default is `$flex-gutter-width` (30px)
-  </span>
-  <span class="k">@include</span> <span class="nd">make-row</span><span class="p">();</span>
-  
-  
-  <span class="c1">//
-  // Generate Semantic Columns
-  // -------------------------
-  // @param $columns - Number of columns to take up
-  // @param $gutter - Gutter between columns. Default is `$gutter-width` (30px)
-  // @param $media-query - Breakpoint for the column to collapse. Default is null
-  // @param $min-max - Explicitly sets the media query to be `min-width` or `max-width`. Default is `min`
-  </span>
-  <span class="k">@include</span> <span class="nd">make-column</span><span class="p">();</span></code></pre>
+                <pre>
+                  <code class="language-scss" data-lang="scss">
+                  <span class="c1">//
+                    // Generate Semantic Rows
+                    // ----------------------
+                    // @param $gutter - Gutter between columns. Default is `$flex-gutter-width` (30px)
+                  </span>
+                  <span class="k">@include</span> <span class="nd">make-row</span><span class="p">();</span>
+                  <span class="c1">
+                    //
+                    // Generate Semantic Columns
+                    // -------------------------
+                    // @param $columns - Number of columns to take up
+                    // @param $gutter - Gutter between columns. Default is `$gutter-width` (30px)
+                    // @param $media-query - Breakpoint for the column to collapse. Default is null
+                    // @param $min-max - Explicitly sets the media query to be `min-width` or `max-width`. Default is `min`
+                  </span>
+                    <span class="k">@include</span> <span class="nd">make-column</span><span class="p">();</span>
+                  </code>
+                </pre>
               </figure>
             </div>
-
             <div class="col-small-6">
               <h4>Generating Class Names</h4>
-
               <figure class="highlight">
                 <pre><code class="language-scss" data-lang="scss"><span class="c1">//
   // Generate Grid Classes
