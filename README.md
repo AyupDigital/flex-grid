@@ -27,6 +27,14 @@ To compile the sass run
 npm run build
 ```
 
+### Deployment
+
+To release a new version to npm and update the tags on git use the below command
+
+```
+npm version [version number e.g. 1.0.1] && npm publish && git push --tags
+```
+
 ## Built With
 
 - [node sass](https://github.com/JeffreyWay/laravel-mix) - The build tool used
