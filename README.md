@@ -1,5 +1,9 @@
 # FlexiGrid
 
+![GitHub Release Date](https://img.shields.io/github/release-date/AyupDigital/flexigrid.svg)
+![GitHub issues](https://img.shields.io/github/issues/AyupDigital/flexigrid.svg)
+![GitHub](https://img.shields.io/github/license/AyupDigital/flexigrid.svg)
+![Twitter Follow](https://img.shields.io/twitter/follow/Ayupdigital.svg?style=social)  
 This project is a fully working flexbox grid system.
 You can find documentation on how to use it [here!](https://ayupdigital.github.io/flexigrid/#) this package currently uses [flexicution](http://keenanpayne.com/flexicution/) as a base.
 
@@ -26,7 +30,7 @@ npm run build
 ## Built With
 
 - [node sass](https://github.com/JeffreyWay/laravel-mix) - The build tool used
-- [Flexicution](http://keenanpayne.com/flexicution/) - Code used as basis 
+- [Flexicution](http://keenanpayne.com/flexicution/) - Code used as basis
 
 ## Authors
 
