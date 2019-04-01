@@ -216,6 +216,10 @@
   order: -1;
 }
 
+.-xsmall-order-none {
+  order: 0;
+}
+
 .-xsmall-last {
   order: 1;
 }
@@ -364,6 +368,9 @@
   .-small-first {
     order: -1;
   }
+  .-small-order-none {
+    order: 0;
+  }
   .-small-last {
     order: 1;
   }
@@ -503,6 +510,9 @@
   /* Breakpoint-specific column modifiers */
   .-medium-first {
     order: -1;
+  }
+  .-medium-order-none {
+    order: 0;
   }
   .-medium-last {
     order: 1;
@@ -644,6 +654,9 @@
   .-large-first {
     order: -1;
   }
+  .-large-order-none {
+    order: 0;
+  }
   .-large-last {
     order: 1;
   }
@@ -783,6 +796,9 @@
   /* Breakpoint-specific column modifiers */
   .-xlarge-first {
     order: -1;
+  }
+  .-xlarge-order-none {
+    order: 0;
   }
   .-xlarge-last {
     order: 1;

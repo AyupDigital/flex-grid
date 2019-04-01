@@ -173,10 +173,12 @@ $flex-grid-gutter-width: 30px !default;
   /* Breakpoint-specific column modifiers */
   .-#{$class}-first { order: -1; }
 
+  .-#{$class}-order-none { order: 0; }
+
   .-#{$class}-last { order: 1; }
 
   .-#{$class}-start { 
-    justify-content: flex-start;
+    justify-content: flex-start; 
     text-align: start;
   }
 
