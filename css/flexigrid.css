@@ -211,7 +211,7 @@
   padding-right: 0;
 }
 
-* Breakpoint-specific column modifiers
+/* Breakpoint-specific column modifiers */
 .-xsmall-first {
   order: -1;
 }
@@ -360,8 +360,8 @@
     padding-left: 0;
     padding-right: 0;
   }
-  * Breakpoint-specific column modifiers
-.-small-first {
+  /* Breakpoint-specific column modifiers */
+  .-small-first {
     order: -1;
   }
   .-small-last {
@@ -500,8 +500,8 @@
     padding-left: 0;
     padding-right: 0;
   }
-  * Breakpoint-specific column modifiers
-.-medium-first {
+  /* Breakpoint-specific column modifiers */
+  .-medium-first {
     order: -1;
   }
   .-medium-last {
@@ -640,8 +640,8 @@
     padding-left: 0;
     padding-right: 0;
   }
-  * Breakpoint-specific column modifiers
-.-large-first {
+  /* Breakpoint-specific column modifiers */
+  .-large-first {
     order: -1;
   }
   .-large-last {
@@ -780,8 +780,8 @@
     padding-left: 0;
     padding-right: 0;
   }
-  * Breakpoint-specific column modifiers
-.-xlarge-first {
+  /* Breakpoint-specific column modifiers */
+  .-xlarge-first {
     order: -1;
   }
   .-xlarge-last {
