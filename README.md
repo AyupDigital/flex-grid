@@ -5,7 +5,7 @@
 ![GitHub](https://img.shields.io/github/license/AyupDigital/flexigrid.svg)
 ![Twitter Follow](https://img.shields.io/twitter/follow/Ayupdigital.svg?style=social)  
 This project is a fully working flexbox grid system.
-You can find documentation on how to use it [here!](https://ayupdigital.github.io/flexigrid/#) this package currently uses [flexicution](http://keenanpayne.com/flexicution/) as a base.
+You can find documentation on how to use it [here!](https://ayupdigital.github.io/flexigrid/#) this package is based on [flexicution](http://keenanpayne.com/flexicution/).
 
 ## Getting Started
 
