@@ -14,7 +14,23 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
+To use this grid in your project install it via npm!
+
+```
+npm i @ayup-digital/flexigrid
+```
+
+Get started using the default classes by simply importing the classes file into your sass file.
+
+```
+@import "node_modules/@ayup-digital/flexigrid/flexigrid-classes"
+```
+
+For details on how to use the classes you can find the documentation [here](https://ayupdigital.github.io/flexigrid/)!
+
+### Contribute!
+
+To make changes to this grid heres how to get set up for developement.
 
 Firstly run to install all of the dependencies:
 
@@ -28,6 +44,18 @@ To compile the sass run
 npm run build
 ```
 
+Make changes to the site (Built with tailwind)
+
+```
+npm run dev
+```
+
+Generate documentation site files
+
+```
+npm run prod
+```
+
 ### Deployment
 
 To release a new version to npm and update the tags on git use the below command
@@ -38,8 +66,10 @@ npm version [version number e.g. 1.0.1] && npm publish && git push --tags
 
 ## Built With
 
-- [node sass](https://github.com/JeffreyWay/laravel-mix) - The build tool used
+- [node sass](https://github.com/JeffreyWay/laravel-mix) - Sass build tool
 - [Flexicution](http://keenanpayne.com/flexicution/) - Code used as basis
+- [Tailwind](https://tailwindcss.com/) - Documentation site CSS framework
+- [Webpack](https://webpack.js.org/) - Site build tool
 
 ## Authors
 
