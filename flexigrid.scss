@@ -155,10 +155,14 @@ $flex-grid-gutter-width: 30px !default;
   .-#{$class}-no-gutters {
     padding-left: 0;
     padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
   }
   .-#{$class}-gutters {
     padding-left: 15px;
     padding-right: 15px;
+    margin-left: ceil($flex-grid-gutter-width / -2);
+    margin-right: floor($flex-grid-gutter-width / -2);
   }
 
   /* Breakpoint-specific column modifiers */

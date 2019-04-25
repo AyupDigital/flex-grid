@@ -204,11 +204,15 @@
 .-xsmall-no-gutters {
   padding-left: 0;
   padding-right: 0;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .-xsmall-gutters {
   padding-left: 15px;
   padding-right: 15px;
+  margin-left: -15px;
+  margin-right: -15px;
 }
 
 /* Breakpoint-specific column modifiers */
@@ -363,10 +367,14 @@
   .-small-no-gutters {
     padding-left: 0;
     padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
   }
   .-small-gutters {
     padding-left: 15px;
     padding-right: 15px;
+    margin-left: -15px;
+    margin-right: -15px;
   }
   /* Breakpoint-specific column modifiers */
   .-small-first {
@@ -510,10 +518,14 @@
   .-medium-no-gutters {
     padding-left: 0;
     padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
   }
   .-medium-gutters {
     padding-left: 15px;
     padding-right: 15px;
+    margin-left: -15px;
+    margin-right: -15px;
   }
   /* Breakpoint-specific column modifiers */
   .-medium-first {
@@ -657,10 +669,14 @@
   .-large-no-gutters {
     padding-left: 0;
     padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
   }
   .-large-gutters {
     padding-left: 15px;
     padding-right: 15px;
+    margin-left: -15px;
+    margin-right: -15px;
   }
   /* Breakpoint-specific column modifiers */
   .-large-first {
@@ -804,10 +820,14 @@
   .-xlarge-no-gutters {
     padding-left: 0;
     padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
   }
   .-xlarge-gutters {
     padding-left: 15px;
     padding-right: 15px;
+    margin-left: -15px;
+    margin-right: -15px;
   }
   /* Breakpoint-specific column modifiers */
   .-xlarge-first {
