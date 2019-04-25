@@ -31,10 +31,6 @@ $flex-grid-gutter-width: 30px !default;
     flex-direction: row-reverse;
   }
 
-  &.-no-gutters {
-    margin-left: 0;
-    margin-right: 0;
-  }
 }
 
 /*
@@ -76,11 +72,6 @@ $flex-grid-gutter-width: 30px !default;
     max-width: $column-width;
     padding-left: ($gutter / 2);
     padding-right: ($gutter / 2);
-  }
-
-  * Modifiers &.-no-gutters {
-    padding-left: 0;
-    padding-right: 0;
   }
 }
 
@@ -157,13 +148,17 @@ $flex-grid-gutter-width: 30px !default;
   .col-#{$class} {
     flex-basis: 0;
     flex-grow: 1;
-    max-width: 100%;
+    max-width: 100%; 
   }
 
   /* Modifiers */
-  .-no-gutters {
+  .-#{$class}-no-gutters {
     padding-left: 0;
     padding-right: 0;
+  }
+  .-#{$class}-gutters {
+    padding-left: 15px;
+    padding-right: 15px;
   }
 
   /* Breakpoint-specific column modifiers */
@@ -174,7 +169,7 @@ $flex-grid-gutter-width: 30px !default;
   .-#{$class}-order-none {
     order: 0;
   }
-
+ 
   .-#{$class}-last {
     order: 1;
   }

@@ -80,11 +80,6 @@
   flex-direction: row-reverse;
 }
 
-.row.-no-gutters {
-  margin-left: 0;
-  margin-right: 0;
-}
-
 /* Extra-small */
 .col-xsmall-1 {
   flex-basis: 8.33333%;
@@ -198,17 +193,22 @@
   margin-left: 100%;
 }
 
-* Adaptive column sizing
+/* Adaptive column sizing */
 .col-xsmall {
   flex-basis: 0;
   flex-grow: 1;
   max-width: 100%;
 }
 
-* Modifiers
-.-no-gutters {
+/* Modifiers */
+.-xsmall-no-gutters {
   padding-left: 0;
   padding-right: 0;
+}
+
+.-xsmall-gutters {
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 /* Breakpoint-specific column modifiers */
@@ -353,16 +353,20 @@
   .col-small-offset-12 {
     margin-left: 100%;
   }
-  * Adaptive column sizing
-.col-small {
+  /* Adaptive column sizing */
+  .col-small {
     flex-basis: 0;
     flex-grow: 1;
     max-width: 100%;
   }
-  * Modifiers
-.-no-gutters {
+  /* Modifiers */
+  .-small-no-gutters {
     padding-left: 0;
     padding-right: 0;
+  }
+  .-small-gutters {
+    padding-left: 15px;
+    padding-right: 15px;
   }
   /* Breakpoint-specific column modifiers */
   .-small-first {
@@ -496,16 +500,20 @@
   .col-medium-offset-12 {
     margin-left: 100%;
   }
-  * Adaptive column sizing
-.col-medium {
+  /* Adaptive column sizing */
+  .col-medium {
     flex-basis: 0;
     flex-grow: 1;
     max-width: 100%;
   }
-  * Modifiers
-.-no-gutters {
+  /* Modifiers */
+  .-medium-no-gutters {
     padding-left: 0;
     padding-right: 0;
+  }
+  .-medium-gutters {
+    padding-left: 15px;
+    padding-right: 15px;
   }
   /* Breakpoint-specific column modifiers */
   .-medium-first {
@@ -639,16 +647,20 @@
   .col-large-offset-12 {
     margin-left: 100%;
   }
-  * Adaptive column sizing
-.col-large {
+  /* Adaptive column sizing */
+  .col-large {
     flex-basis: 0;
     flex-grow: 1;
     max-width: 100%;
   }
-  * Modifiers
-.-no-gutters {
+  /* Modifiers */
+  .-large-no-gutters {
     padding-left: 0;
     padding-right: 0;
+  }
+  .-large-gutters {
+    padding-left: 15px;
+    padding-right: 15px;
   }
   /* Breakpoint-specific column modifiers */
   .-large-first {
@@ -782,16 +794,20 @@
   .col-xlarge-offset-12 {
     margin-left: 100%;
   }
-  * Adaptive column sizing
-.col-xlarge {
+  /* Adaptive column sizing */
+  .col-xlarge {
     flex-basis: 0;
     flex-grow: 1;
     max-width: 100%;
   }
-  * Modifiers
-.-no-gutters {
+  /* Modifiers */
+  .-xlarge-no-gutters {
     padding-left: 0;
     padding-right: 0;
+  }
+  .-xlarge-gutters {
+    padding-left: 15px;
+    padding-right: 15px;
   }
   /* Breakpoint-specific column modifiers */
   .-xlarge-first {
